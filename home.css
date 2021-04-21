@@ -79,16 +79,25 @@ h2{
     
     
     @media screen and (max-width: 559px) {
-      .column {
+      .row{
+          margin-left: auto;
+      }
+        .column {
         width: 100%;
         height: auto;
+        margin-left: auto;
+
       }
     }
 
     @media screen and (min-width:600px) and (max-width:900px) {
+        .row{
+            margin-left: auto;
+        }
         .column{
             width:100%;
             height: auto;
+            margin-left: auto;
         }
     }
  /* end Our Services */
